@@ -1,5 +1,8 @@
 const express = require('express')
-const { topics, articles } = require('./data')
+const {
+  topics,
+  articles
+} = require('./data')
 const cors = require('cors')
 
 const api = express()
